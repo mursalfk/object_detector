@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".information">
+    <TextView
+            android:text="Instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView4" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.012" android:textSize="75sp" android:textColor="#B3984A"
+            android:fontFamily="cursive" app:layout_constraintHorizontal_bias="0.492"/>
+    <TextView
+            android:text="1: A splash screen-screen is shown which holds nothing but three buttons to access the camera, and to initiate the face-detection protocols.\n\n
+2:	Second, it is up to you if you want to perform “Object Detection” operation, then click on the first button, that indicates a camera, symbolizing the IDer symbol.\n\n
+3:	Upon clicking on that, you will be taken to your device’s camera, where you will take a picture of your desired object.\n\n
+4:	The App will then search through its database and mark the object based on its category along with its confidence level. This step takes place back on the homepage.\n\n
+5:	Next, you can opt for Face Detection protocol by clicking on the button on the right side which implicates a mobile with an arrow.\n\n
+6:	There, you will be taken back to your camera where you will take a picture of your desired person(s).\n\n
+7:	The app will then move to its unique algorithm and will spot the faces in the frame.\n\n
+8:	You can again come back and perform all these things again.
+"
+            android:layout_width="370dp"
+            android:layout_height="530dp" android:id="@+id/textView5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.05"
+            android:textSize="14.5sp"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true" app:srcCompat="@drawable/ic_play_dark" android:id="@+id/btn"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.902"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.946"/>
+
+</android.support.constraint.ConstraintLayout>
