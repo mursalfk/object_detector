@@ -20,6 +20,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppThemeFullScreen">
         <activity android:name=".information">
+
         </activity>
         <activity android:name=".face_detect">
         </activity>
